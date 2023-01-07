@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/aditya109/temporal-guide/1-writing-a-workflow-definition/app/greeting"
-	"github.com/aditya109/temporal-guide/1-writing-a-workflow-definition/app/outsource"
+	"github.com/aditya109/temporal-guide/sample-app/greeting"
+	"github.com/aditya109/temporal-guide/sample-app/outsource"
 	"go.temporal.io/sdk/client"
 	"go.temporal.io/sdk/worker"
 )

@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/aditya109/temporal-guide/1-writing-a-workflow-definition/app/outsource"
+	"github.com/aditya109/temporal-guide/sample-app/outsource"
 	"go.temporal.io/sdk/temporal"
 	"go.temporal.io/sdk/workflow"
 )

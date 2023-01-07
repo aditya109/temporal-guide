@@ -7,8 +7,11 @@
     ```
 
 2. Start worker
-```
-cd 1-writing-a-workflow-definition/app/worker
+
+```bash
+cd sample-app
+go mod tidy
+cd worker
 go run worker.go
 ```
 

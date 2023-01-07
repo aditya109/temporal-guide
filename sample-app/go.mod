@@ -1,4 +1,4 @@
-module github.com/aditya109/temporal-guide/1-writing-a-workflow-definition/app
+module github.com/aditya109/temporal-guide/sample-app
 
 go 1.19
 
