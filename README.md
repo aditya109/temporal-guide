@@ -1,10 +1,17 @@
 # temporal demo
 
 ```bash
-# start temporal using docker-compose up, you can view it on http://localhost:8080/
+# start temporal 
+```bash
+cd temporal-setup
+docker compose up #you can view it on http://localhost:8080/
+
+```
 
 # to start worker
-go run worker/worker.go
+
+cd 1-writing-a-workflow-definition/app/worker
+go run worker.go
 
 # example workflow executions
 
