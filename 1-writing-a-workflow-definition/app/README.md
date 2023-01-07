@@ -10,8 +10,7 @@ go run worker/worker.go
 
 tctl workflow start --workflow_type GreetSomeoneInSpanish --taskqueue greeting-tasks --workflow_id my-second-workflow --input '"2"'
 
+# executing a workflow with an activity which fails 
 tctl workflow start --workflow_type GreetSomeoneInSpanish2 --taskqueue greeting-tasks --workflow_id my-second-workflow --input '"2"'
-
-
 
 ```
